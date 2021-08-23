@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/9705d67357.js" crossorigin="anonymous"></script>
+    <title>Qeydiyyat</title>
+</head>
+<body>
+    <div class="qeydiyyat">
+        <div class="container d-flex justify-content-center aling-items-center">
+            <div class="qeydiyyat-info d-flex align-items-center flex-column">
+                <div class="melumat d-flex justify-content-center align-items-center flex-column">
+                    <img src="assets/img/no-avatar.png" alt="">
+                    <div class="lab1 d-flex flex-column align-items-center">
+                        <label for="email">E-Mail</label>
+                        <input class="input" type="email" id="email" placeholder="sizin-ad@mail.com"/>
+                    </div>
+                    <div class="lab2 d-flex flex-column align-items-center">
+                        <label class="sifre-b" for="inp">Şifrə</label>
+                        <div class="goster">
+                            <input class="input" type="password"  id="inp" onkeyup="Sifre()" placeholder="Şifrə" />
+                            <button id="icon" class="far fa-eye-slash" onclick="Goster()" ></button>
+                        </div> 
+                        
+                    </div>
+                </div>
+                <div class="xatirlama d-flex justify-content-around">
+                    <div class="xatirla d-flex align-items-center">
+                        <label for="xatirla">Şifrəmi xatırla:</label> 
+                        <input type="checkbox" name="xatirla" id="xatirla">
+                    </div>
+                    <a href="#">Şifrənin bərpası</a>
+                </div>
+                <div class="btn ">
+                    <button class="rae2">Daxil ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
